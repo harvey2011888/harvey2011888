@@ -12,6 +12,7 @@
 |------|------|
 | 🤖 Bot 开发 | Discord Bot、微信 Bot、AI 客服 |
 | 🏠 AI 房产工具 | 智能选房、房源分析、需求匹配 |
+| 📝 AI 小红书笔记助手 |一键生成笔记 | 智能标签推荐 |
 | 🛒 跨境电商助手 | 多平台集成、AI 导购、自动化 |
 | ⚙️ DevOps | 服务器部署、Docker、自动化脚本 |
 
@@ -28,6 +29,11 @@
 AI 智能选房小程序 — 自然语言输入需求，AI 自动推荐匹配房源
 
 **技术栈：** 微信小程序 · Node.js · AI 大模型 · Vant UI
+
+### [ai-xiaohongshu-assistant](https://github.com/harvey2011888/ai-xiaohongshu-assistant)
+AI 小红书笔记生成助手 — 输入主题自动生成爆款笔记（标题+正文+标签）
+
+**技术栈：** Python · AI 大模型 · 内容优化算法
 
 ### [WWbuy反向海淘](https://github.com/harvey2011888/WWbuy.git)
 跨境电商---反向海淘项目，线上实际跑通过日均千单
