@@ -41,6 +41,18 @@
 
 **技术栈：** Python · CLI · Markdown 模板 · 零依赖
 
+### [ops_agent](https://github.com/harvey2011888/ops_agent)
+基于 **RAG + Agent** 的智能运维助手 — 自然语言对话完成服务器监控、日志分析、故障诊断
+**核心特性：**
+- 🤖 Agent 自主决策 — LLM Function Calling 自动调用 SSH 工具，无需手动执行命令
+- 📚 RAG 知识库 — 50+ 份故障复盘文档，Chroma 向量检索增强诊断
+- 🛡️ 安全防护 — 危险命令自动拦截（rm -rf /、mkfs 等）
+- 🧠 多轮对话记忆 — 上下文连续对话，最多保留 10 轮历史
+- 🔌 多 LLM 支持 — DeepSeek V4 Pro / 阿里云百炼 / 硅基流动 / OpenAI 兼容接口
+- 📊 系统评估 — 20 个测试用例 + 5 轮 Prompt 迭代优化
+
+**技术栈：** Python · Streamlit · LangChain · ChromaDB · SSH · DeepSeek
+
 ### [crossborder-assistant](https://github.com/harvey2011888/crossborder-assistant)
 跨境电商 Discord 助手 — 多 AI 集成（Gemini/千问/GPT-4）、智能导购、物流查询
 **技术栈：** Python · Discord.py · MySQL · Docker · 异步架构
